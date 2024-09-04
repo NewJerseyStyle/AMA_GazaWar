@@ -18,17 +18,41 @@
 
     /* Container for the about section */
     #about-container {
-      background-color: rgba(135, 206, 250, 0.7); /* Light blue with 70% transparency */
+      background-color: rgba(180, 250, 250, 0.7);
       width: 70%;
       margin: 0 auto; /* Center the div horizontally */
       padding: 20px; /* Add some spacing inside the div */
       font-size: large;
+      border-radius: .5em;
+    }
+
+    /* Style for titles with transparent background */
+    .transparent-title {
+      background-color: rgba(255, 255, 255, 0.7); /* White background with 70% transparency */
+      padding: 10px; /* Add some padding around the title */
+      margin-bottom: 10px; /* Add spacing below the title */
+      border-radius: .5em;
     }
 
     iframe {
       width: 100%;
-      height: 500px;
+      height: 150hv;
       border: 0;
+    }
+    /* Style for the "Contribute" div */
+    #contribute-container {
+      text-align: center; 
+      margin-top: 20px;
+    }
+
+    /* Style for the call to action button */
+    #contribute-link {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff; /* Blue background color */
+      color: white;
+      text-decoration: none; 
+      border-radius: 5px; 
     }
 
     @media (max-width: 600px) {
@@ -45,11 +69,13 @@
     <p>A knowledge-based chatbot designed to provide supplementary reading materials related to Israeli-Palestinian conflicts offering research paper recommendation to learn more about Israel and Palestine. Academic paper is an overlooked area of knowledge and information about conflict in gaza</p>
   </div>
 
-  <h2>Knowledge base: paper list</h2>
+  <h2 class="transparent-title">Knowledge base: papers</h2>
   <iframe src="https://docs.google.com/spreadsheets/d/1IvOENo_6gYJ6a2FU-sl1nXO56bn6kTLvWgRsrto-CqM/pubhtml?gid=604246416&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
-  <h2>Contribute: add a new paper</h2>
-  <a href="https://forms.gle/yPZtREW9L4VyEm2w5">Upload a paper through this Google form</a>
+  <div id="contribute-container">
+    <h2>Contribute: add a new paper</h2>
+    <a href="https://forms.gle/yPZtREW9L4VyEm2w5">Upload a paper through this Google form</a>
+  </div>
 
 </body>
 </html>
