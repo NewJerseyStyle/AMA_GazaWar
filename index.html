@@ -16,6 +16,15 @@
       text-align: center;
     }
 
+    /* Container for the about section */
+    #about-container {
+      background-color: rgba(135, 206, 250, 0.7); /* Light blue with 70% transparency */
+      width: 70%;
+      margin: 0 auto; /* Center the div horizontally */
+      padding: 20px; /* Add some spacing inside the div */
+      font-size: large;
+    }
+
     iframe {
       width: 100%;
       height: 500px;
@@ -31,8 +40,10 @@
 </head>
 <body>
 
-  <h1>About</h1>
-  <p>A knowledge-based chatbot designed to provide supplementary reading materials related to Israeli-Palestinian conflicts offering research paper recommendation to learn more about Israel and Palestine. Academic paper is an overlooked area of knowledge and information about conflict in gaza</p>
+  <div id="about-container"> 
+    <h1>About</h1>
+    <p>A knowledge-based chatbot designed to provide supplementary reading materials related to Israeli-Palestinian conflicts offering research paper recommendation to learn more about Israel and Palestine. Academic paper is an overlooked area of knowledge and information about conflict in gaza</p>
+  </div>
 
   <h2>Knowledge base: paper list</h2>
   <iframe src="https://docs.google.com/spreadsheets/d/1IvOENo_6gYJ6a2FU-sl1nXO56bn6kTLvWgRsrto-CqM/pubhtml?gid=604246416&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
