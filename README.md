@@ -9,3 +9,5 @@ The chatbot is available on [poe.com/AMA_GazaWar](https://poe.com/AMA_GazaWar)
 # [Contributor portal](https://newjerseystyle.github.io/AMA_GazaWar/)
 * You can view all paper currently in the knowledge base
 * You can add upload paper using [the Google form](https://forms.gle/yPZtREW9L4VyEm2w5)
+
+Access [Contributor portal](https://newjerseystyle.github.io/AMA_GazaWar/) 👈
