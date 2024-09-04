@@ -30,19 +30,21 @@
     .transparent-title {
       background-color: rgba(255, 255, 255, 0.7); /* White background with 70% transparency */
       padding: 10px; /* Add some padding around the title */
-      margin-bottom: 10px; /* Add spacing below the title */
+      margin-top: 3em; /* Add spacing below the title */
       border-radius: .5em;
     }
 
     iframe {
       width: 100%;
-      height: 150hv;
+      height: 150vh;
       border: 0;
     }
     /* Style for the "Contribute" div */
     #contribute-container {
+      background-color: rgba(178, 153, 110, 0.7); /* White background with 70% transparency */
       text-align: center; 
-      margin-top: 20px;
+      margin-top: 2em;
+      border-radius: .5em;
     }
 
     /* Style for the call to action button */
@@ -69,13 +71,13 @@
     <p>A knowledge-based chatbot designed to provide supplementary reading materials related to Israeli-Palestinian conflicts offering research paper recommendation to learn more about Israel and Palestine. Academic paper is an overlooked area of knowledge and information about conflict in gaza</p>
   </div>
 
-  <h2 class="transparent-title">Knowledge base: papers</h2>
-  <iframe src="https://docs.google.com/spreadsheets/d/1IvOENo_6gYJ6a2FU-sl1nXO56bn6kTLvWgRsrto-CqM/pubhtml?gid=604246416&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-
   <div id="contribute-container">
     <h2>Contribute: add a new paper</h2>
-    <a href="https://forms.gle/yPZtREW9L4VyEm2w5">Upload a paper through this Google form</a>
+    <a id="contribute-link" href="https://forms.gle/yPZtREW9L4VyEm2w5">Upload a paper through this Google form</a>
   </div>
+
+  <h2 class="transparent-title">Knowledge base: papers</h2>
+  <iframe src="https://docs.google.com/spreadsheets/d/1IvOENo_6gYJ6a2FU-sl1nXO56bn6kTLvWgRsrto-CqM/pubhtml?gid=604246416&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 </body>
 </html>
